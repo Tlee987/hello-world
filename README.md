@@ -13,14 +13,20 @@ public class ComputeMoneyChange
     int numberOfOneDollars = remainingAmount / 100;
     remainingAmount = remainingAmount % 100;
 * The percentage sign is for the remainder, which is the same for the following, Quarters, Dimes, Nickels and Pennies
+* This is an input for any dollar and cents amount, then each amount is remaining between quarters, dimes, nickels and pennies
 
     int numberOfQuarters = remainingAmount / 25;
     remainingAmount = remainingAmount % 25;
 
-    int numberOfDimes = remainingAmount / 10
+    int numberOfDimes = remainingAmount / 10;
     remainingAmount = remainingAmount % 10;
 
-    int numberOfNickels = remainingAmount / 5
+    int numberOfNickels = remainingAmount / 5;
     remainingAmount = remainingAmount % 5;
+
+    intnumberOfPennies = remainingAmount * 0.01;
+    remainingAmount = remainingAmount % 1;
+  
+
 
     
