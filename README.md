@@ -26,7 +26,8 @@ public class ComputeMoneyChange
 
     intnumberOfPennies = remainingAmount * 0.01;
     remainingAmount = remainingAmount % 1;
-  
+
+    System.out.printin("Money Amount" + amount + "consists of \n" + "\t" + numberOfOneDollars + "dollars\n" + numberOfQuarters + = "quarters" + "\t" + numberOfDimes + " dimes\n" + "t\" + numberOfNickels + " nickels\n" + "t\" + remainingAmount % 1 
 
 
     
