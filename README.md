@@ -4,7 +4,7 @@
   public static void main(String[] args)  {
     Scanner input = new Scanner(System.in) ;
 //Enter in Amount of Money - Can be any amount with Dollars and cents//
-    System.out.print("Enter a money Amount") ;
+    System.out.print("Enter Your amount");
     double amount = input.nextDouble() ;
 //The following are dollars, Quarters, Dimes, Nickels and Pennies to provide for an answer for the change//
 
@@ -27,6 +27,7 @@
      int numberOfPennies = remainingAmount;
     remainingAmount = remainingAmount % 1;
 
-    System.out.println("Your amount" + amount + " consists of \n" + "\t" + numberOfOneDollars + "dollars\n" + numberOfQuarters + = "quarters" + "\t" + numberOfDimes + " dimes\n" "\t" + numberOfNickels + " nickels\n" + "\t"  remainingAmount numberOfPennies)
-     }
-    
+    System.out.println("Your amount" + amount + " consists of \n" + "\t" + numberOfOneDollars + " dollars\n" + "\t" + numberOfQuarters + "\t" + " quarters\n" + "\t" + numberOfDimes + " dimes\n" + "\t" + numberOfNickels + " nickels\n" + "\t" + numberOfPennies + " pennies");
+  }
+
+   
