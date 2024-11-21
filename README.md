@@ -1,10 +1,10 @@
 # hello-world
 Project 1
 public class ComputeMoneyChange
-  public static void main{String[] args) ; {
+  public static void main(String[] args)  {
     Scanner input = new Scanner(System.in) ;
 *Enter in Amount of Money - Can be any amount with Dollars and cents
-    Sysytem.out.print{"Enter a money Amount") ;
+    System.out.print("Enter a money Amount") ;
     double amount = input.nextDouble() ;
 *The following are dollars, Quarters, Dimes, Nickels and Pennies to provide for an answer for the change
 
@@ -24,10 +24,10 @@ public class ComputeMoneyChange
     int numberOfNickels = remainingAmount / 5;
     remainingAmount = remainingAmount % 5;
 
-    intnumberOfPennies = remainingAmount * 0.01;
+    int numberOfPennies = remainingAmount * /1;
     remainingAmount = remainingAmount % 1;
 
-    System.out.printin("Money Amount" + amount + "consists of \n" + "\t" + numberOfOneDollars + "dollars\n" + numberOfQuarters + = "quarters" + "\t" + numberOfDimes + " dimes\n" + "t\" + numberOfNickels + " nickels\n" + "t\" + remainingAmount % 1 
-
+    System.out.printIn("Money Amount" + amount + "consists of \n" + numberOfOneDollars + "dollars\n" + numberOfQuarters + = "quarters" + numberOfDimes + " dimes\n" + numberOfNickels + " nickels\n" + remainingAmount numberOfPennies)
+; }
 
     
