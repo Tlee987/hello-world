@@ -4,8 +4,8 @@ public class ComputeMoneyChange
   public static void main(String[] args)  {
     Scanner input = new Scanner(System.in) ;
 *Enter in Amount of Money - Can be any amount with Dollars and cents
-    System.out.print("Enter a money Amount") ;
-    double amount = input.nextDouble() ;
+    System.out.print("Enter a money Amount");
+    double amount = input.nextDouble();
 *The following are dollars, Quarters, Dimes, Nickels and Pennies to provide for an answer for the change
 
     int remainingAmount = (int) (amount * 100) ;
