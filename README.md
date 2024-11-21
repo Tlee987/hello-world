@@ -8,7 +8,7 @@ public class ComputeMoneyChange
     double amount = input.nextDouble();
 *The following are dollars, Quarters, Dimes, Nickels and Pennies to provide for an answer for the change
 
-    int remainingAmount = (int) (amount * 100) ;
+    int remainingAmount = (int) (amount * 100);
     
     int numberOfOneDollars = remainingAmount / 100;
     remainingAmount = remainingAmount % 100;
