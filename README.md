@@ -3,8 +3,10 @@
 //public class [in ComputeMoneyChange.java]//
   public static void main(String[] args)  {
     Scanner input = new Scanner(System.in) ;
+
 //Enter in Amount of Money - Can be any amount with Dollars and cents//
-    System.out.print("Enter Your amount");
+
+    System.out.print("Your Amount") ;
     double amount = input.nextDouble() ;
 //The following are dollars, Quarters, Dimes, Nickels and Pennies to provide for an answer for the change//
 
@@ -30,5 +32,4 @@
     System.out.println("Your amount" + amount + " consists of \n" + "\t" + numberOfOneDollars + " dollars\n" + "\t" + numberOfQuarters + "\t" + " quarters\n" + "\t" + numberOfDimes + " dimes\n" + "\t" + numberOfNickels + " nickels\n" + "\t" + numberOfPennies + " pennies");
   }
 
-   
    
