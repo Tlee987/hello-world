@@ -32,5 +32,6 @@
     System.out.println("Your amount" + amount + " consists of \n" + "\t" + numberOfOneDollars + " dollars\n" + "\t" + numberOfQuarters + "\t" + " quarters\n" + "\t" + numberOfDimes + " dimes\n" + "\t" + numberOfNickels + " nickels\n" + "\t" + numberOfPennies + " pennies");
   }
 
+)
    
    
